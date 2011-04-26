@@ -1,4 +1,4 @@
-var douche = require('../index.js');
+var douche = require('../../douche');
 
 var client = new douche('http://api.search.live.net/search.wsdl');
 client.wsdl.parse(function(wsdl) {
